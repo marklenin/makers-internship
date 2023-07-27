@@ -1,0 +1,57 @@
+.headerSection {
+  /* height: 590px; */
+  background-color: #0d6efd;
+  background-image: url("../../assets/main-bc-img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 5vw;
+}
+
+.headerSection-inner {
+  display: flex;
+  padding-top: 3.5vw;
+}
+
+.header-right {
+  width: 40%;
+}
+
+.header-right img {
+  max-width: 536px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-left {
+  display: flex;
+  gap: 1vw;
+  flex-direction: column;
+  color: #e0e5ed;
+  width: 60%;
+}
+.header-left-title {
+  font-weight: 800;
+  /* font-size: 5.5vw; */
+  font-size: max(5.5vw, 24px);
+  color: white;
+  line-height: 7.5vw;
+}
+.header-left-text {
+  font-size: max(3vw, 12px);
+  /* font-weight: 600; */
+  line-height: 4vw;
+  margin: 0.5vw 0;
+}
+.header-left-btn {
+  background-color: #ff784f;
+  border-radius: 0.6vw;
+  /* max-width: 232px;
+  max-height: 52px; */
+  width: 18vw;
+  min-width: 120px;
+  height: 4vw;
+  min-height: 30px;
+  font-size: max(1.5vw, 14px);
+  border: none;
+  color: white;
+}

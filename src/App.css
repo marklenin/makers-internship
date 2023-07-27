@@ -1,0 +1,15 @@
+.App {
+  font-family: "Manrope", sans-serif;
+}
+.side_padding {
+  padding: 0 3%;
+}
+.header-left-btn {
+  background-color: #ff784f;
+  border-radius: 10px;
+  /* padding: 14px, 60px, 14px, 60px; */
+  /* width: 232px; */
+  /* height: 52px; */
+  border: none;
+  color: white;
+}

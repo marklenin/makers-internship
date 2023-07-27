@@ -4,10 +4,7 @@ import HomePage from "./pages/HomePage";
 import Navbar from "./components/navbar/Navbar";
 
 function MyRoutes() {
-  const PUBLIC_ROUTES = [
-    { link: "/", element: <HomePage />, id: 1 },
-    { link: "/navbar", element: <Navbar />, id: 2 },
-  ];
+  const PUBLIC_ROUTES = [{ link: "/", element: <HomePage />, id: 1 }];
   return (
     <div>
       <Routes>
