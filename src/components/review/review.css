@@ -1,0 +1,28 @@
+.Review_section {
+  padding: 2vw 0 4vw;
+  margin: 4vw 0;
+}
+.Review_title {
+  font-weight: 600;
+  font-size: max(3vw, 14px);
+  line-height: 40.98px;
+  margin: 2vw 0;
+}
+
+.Review_left {
+  width: 65%;
+}
+.Review_right {
+  width: 35%;
+}
+
+.LeaveReview {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0;
+}
+
+.LeaveReview_left input {
+  height: 155px;
+  width: 430px;
+}

@@ -1,0 +1,17 @@
+.Footer {
+  background-color: #2b59c3;
+  padding: 2vw 0;
+}
+.Footer_inner {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.Footer_inner p {
+  cursor: pointer;
+}
