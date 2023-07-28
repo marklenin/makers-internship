@@ -1,0 +1,12 @@
+.Mentor_section {
+  background-color: #2b59c3;
+  padding: 2vw 0 4vw;
+  margin: 4vw 0;
+}
+.Mentor_title {
+  font-weight: 600;
+  font-size: max(3vw, 14px);
+  line-height: 40.98px;
+  margin: 2vw 0;
+  color: white;
+}
