@@ -15,7 +15,7 @@ function OffcanvasExample() {
         <Navbar
           key={expand}
           expand={expand}
-          className="bg-primary  navbar-dark "
+          className="bg-primary  navbar-dark text-white"
           style={{ padding: "0.8rem 3%" }}
         >
           <Container fluid>
@@ -35,7 +35,7 @@ function OffcanvasExample() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-center flex-grow-1 pe-2">
+                <Nav className="justify-content-center flex-grow-1 pe-2 ">
                   <Nav.Link href="#action1">Главная</Nav.Link>
                   <Nav.Link href="#action2">Курсы</Nav.Link>
                   <Nav.Link href="#action2">Бесплатные курсы</Nav.Link>

@@ -2,9 +2,13 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Navbar from "./components/navbar/Navbar";
+import RegisterPage from "./pages/RegisterPage";
 
 function MyRoutes() {
-  const PUBLIC_ROUTES = [{ link: "/", element: <HomePage />, id: 1 }];
+  const PUBLIC_ROUTES = [
+    { link: "/", element: <HomePage />, id: 1 },
+    { link: "/register", element: <RegisterPage />, id: 1 },
+  ];
   return (
     <div>
       <Routes>
